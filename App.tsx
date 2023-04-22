@@ -1,8 +1,8 @@
 import React from 'react';
-import ListUserScreen from './src/screens/ListUserScreen';
+import RootStackNavigation from './src/navigations/RootStackNavigation';
 
 const App = () => {
-  return <ListUserScreen />;
+  return <RootStackNavigation />;
 };
 
 export default App;
