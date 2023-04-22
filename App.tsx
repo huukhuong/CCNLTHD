@@ -1,10 +1,8 @@
 import React from 'react';
-import FlexBox from './src/flex/FlexBox';
+import ListUserScreen from './src/screens/ListUserScreen';
 
 const App = () => {
-  return (
-    <FlexBox />
-  );
+  return <ListUserScreen />;
 };
 
 export default App;
